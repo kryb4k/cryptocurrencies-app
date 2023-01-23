@@ -1,8 +1,14 @@
 import "./App.css";
+import Sidebar from "./components/Sidebar";
 
 function App() {
-  // https://www.coingecko.com/pl/api/documentation
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <div>
+        <Sidebar />
+      </div>
+    </div>
+  );
 }
 
 export default App;
